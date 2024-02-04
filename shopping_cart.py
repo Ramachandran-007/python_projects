@@ -27,7 +27,7 @@ class shopping_cart:
         print(f'Name : {self.name}')
         print(f'Phone no : {self.ph_no}')
         print(f'Address : {self.address}')
-        #print(f'Cart : {self.cart}\n')
+        print(f'Cart : {self.cart}\n')
 
         if cus.cart != {}:
             print('product', end='     ')
